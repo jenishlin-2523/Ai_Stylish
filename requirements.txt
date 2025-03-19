@@ -1,0 +1,4 @@
+//copy_the_below_mentioned_pakages_in_terminal
+
+pip install tensorflow keras numpy opencv-python pillow flask flask-cors werkzeug
+pip install opencv-python numpy flask flask-cors werkzeug
