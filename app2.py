@@ -81,7 +81,7 @@ def get_fashion_recommendation(img_path):
         return {"error": str(e)}
 
 # Homepage Route
-@app.route("/")
+@app.route('/')
 def home():
     return render_template("index1.html")
 
@@ -114,4 +114,5 @@ def upload_image():
     return jsonify({"error": "Invalid file type"})
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host="0.0.0.0", port=5000)
+
